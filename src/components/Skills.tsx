@@ -1,4 +1,4 @@
-import { Code2, Server, FileCode, Laptop, ReactLogo, Cloud } from "lucide-react";
+import { Code2, Server, FileCode, Laptop, Code, Cloud } from "lucide-react";
 
 const Skills = () => {
   const skills = [
@@ -6,7 +6,7 @@ const Skills = () => {
     { name: "SpringBoot", icon: <Server size={24} /> },
     { name: "TypeScript", icon: <FileCode size={24} /> },
     { name: "Node.js", icon: <Laptop size={24} /> },
-    { name: "React", icon: <ReactLogo size={24} /> },
+    { name: "React", icon: <Code size={24} /> },
     { name: "GCP", icon: <Cloud size={24} /> },
   ];
 
